@@ -32,7 +32,14 @@ void quickSort(int arr[], int low, int high){
 }
 
 void maxMissingNumber(int arr[], int size){
-	 
+	int nMax=0;
+	for(int i=0; i<size; i++){
+	
+		 if(arr[i]%2==0){
+			arr[i]=arr[i+1];
+			i++;
+					
+		}
 
 }
 
