@@ -38,9 +38,11 @@ void maxMissingNumber(int arr[], int size){
 		 while(arr[i]%2==0){
 			arr[i]=arr[i+1];
 			i++;
-					
+
+        		
 		}
 
+} 
 }
 
 void printArray(int arr[], int size){
